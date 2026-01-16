@@ -1,110 +1,77 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9500,100:1a1a2e&height=200&section=header&text=SATOSHIS%20LEGACY&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=The%20Last%20Code%20of%20the%20Master&descAlignY=55&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9500,100:1a1a2e&height=200&section=header&text=SATOSHIS%20LEGACY&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Be%20Early%20Again&descAlignY=55&descSize=18" width="100%"/>
 </p>
 
 <p align="center">
-  <b>🌅 Der letzte Code den Satoshi Nakamoto der Welt hinterlassen hat</b>
+  <b> Modern Code. Fresh Start. Early Adopter Feeling.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-0.3.19-orange?style=for-the-badge" alt="Version"/>
-  <img src="https://img.shields.io/badge/Release-December%202010-blue?style=for-the-badge" alt="Release"/>
-  <img src="https://img.shields.io/badge/Code-100%25%20Satoshi-gold?style=for-the-badge" alt="Code"/>
+  <img src="https://img.shields.io/badge/Based%20On-Bitcoin%20v30.2-orange?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/Security-Maximum-green?style=for-the-badge" alt="Security"/>
+  <img src="https://img.shields.io/badge/Network-Fresh%20Start-blue?style=for-the-badge" alt="Network"/>
 </p>
 
 ---
 
-## 📜 Die Geschichte
+##  Das Konzept
 
-> **Dezember 2010:** Satoshi Nakamoto veröffentlicht Bitcoin v0.3.19 - sein letztes Release. 
-> Kurz darauf verschwindet er für immer aus dem Internet.
+> **Was w�re, wenn du 2009 dabei gewesen w�rst?**
 >
-> **"Satoshis Legacy"** bewahrt diesen historischen Moment. 
-> Kein Code wurde hinzugefügt. Keine "Verbesserungen". 
-> Nur der pure, finale Code den Satoshi der Welt hinterlassen hat.
+> Bitcoin bei Block 1. Mining mit der CPU. 50 BTC pro Block.
 >
-> *Ein digitales Denkmal.*
+> **Satoshis Legacy** gibt dir genau dieses Gef�hl - aber mit modernem, sicherem Code.
+> 
+> Wir nehmen den neuesten Bitcoin-Code (v30.2) und starten eine komplett neue Blockchain.
+>
+> *Be early. Again.*
 
 ---
 
-## 🪙 Coin Details
+##  Coin Details
 
 | Eigenschaft | Wert |
 |-------------|------|
 | **Name** | Satoshis Legacy |
 | **Ticker** | SLEG |
-| **Basis** | Bitcoin v0.3.19 (Satoshis letztes Release) |
+| **Basis** | Bitcoin Core v30.2 (Januar 2026) |
 | **Block Time** | 10 Minuten |
 | **Max Supply** | 21.000.000 SLEG |
 | **Block Reward** | 50 SLEG (Halving alle 210.000 Blocks) |
-| **Mining** | CPU only (SHA-256) |
-| **Consensus** | Proof of Work |
+| **Mining** | SHA-256 (Pool-Mining supported) |
+| **Port** | 9333 (Mainnet) |
+| **Magic Bytes** | `SLEG` (0x53, 0x4c, 0x45, 0x47) |
 
 ---
 
-## 🎯 Warum?
+##  Sicherheit
 
-| Andere Coins | Satoshis Legacy |
-|--------------|-----------------|
-| Ändern den Code | ❌ Keine Änderungen |
-| "Verbessern" Bitcoin | ❌ Keine Verbesserungen |
-| Eigene Vision | ✅ Satoshis Vision |
-| Moderner Code | ✅ Original 2010 Code |
-
-**Wir sind keine Fork mit Änderungen. Wir sind ein Denkmal.**
+Basiert auf **Bitcoin Core v30.2** - der neuesten stabilen Version mit allen Sicherheitsfixes.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
-# Clone the repository
 git clone https://github.com/rexmarlon/satoshis-legacy.git
-
-# Build (requires Visual Studio 2008 or compatible)
 cd satoshis-legacy/src
-# Follow build instructions in docs/BUILD.md
+./autogen.sh && ./configure && make
 ```
 
 ---
 
-## 📁 Projekt Struktur
+##  Roadmap
 
-```
-satoshis-legacy/
-├── src/                 # Bitcoin v0.3.19 Source Code
-├── docs/                # Dokumentation
-├── scripts/             # Build & Helper Scripts
-├── config/              # Netzwerk-Konfiguration
-└── README.md            # Diese Datei
-```
-
----
-
-## ⚠️ Disclaimer
-
-> Dieses Projekt ist ein historisches Denkmal und Lernprojekt.
-> Es ist NICHT für den produktiven Einsatz oder echten Handel gedacht.
-> Die Software hat bekannte Bugs die in neueren Bitcoin-Versionen gefixt wurden.
-
----
-
-## 📋 TODO
-
-- [ ] Bitcoin v0.3.19 Source Code beschaffen
-- [ ] Netzwerk-Parameter ändern (eigene Chain)
+- [x] Bitcoin v30.2 Code integriert
+- [x] Magic Bytes ge�ndert (SLEG)
+- [x] Network Port ge�ndert (9333)
+- [x] Seed Nodes geleert
 - [ ] Neuen Genesis Block erstellen
-- [ ] Build-Anleitung schreiben
-- [ ] Logo erstellen
-- [ ] Website erstellen
+- [ ] Mining Pool einrichten
+- [ ] Community aufbauen
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9500,100:1a1a2e&height=100&section=footer" width="100%"/>
-</p>
-
-<p align="center">
-  <b>🌅 "The Last Code of the Master"</b><br>
-  <sub>In memory of Satoshi Nakamoto's final contribution to Bitcoin</sub>
+  <b> "Be Early Again"</b>
 </p>
